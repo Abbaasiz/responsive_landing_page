@@ -83,6 +83,18 @@ body {
 
 }
 
+.team .card-body i{
+    font-size: 20px;
+}
+
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
 /* responsive CSS */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -91,6 +103,14 @@ body {
     }
 
     .carousel-caption p {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .img-area img {
         width: 100%;
     }
 }
@@ -113,5 +133,11 @@ body {
         width: 100%;
         line-height: 1.6;
         font-size: 12px;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .card {
+        margin-bottom: 30px;
     }
 }
